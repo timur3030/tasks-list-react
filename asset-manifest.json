@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/tasks-list-react/static/css/main.c661f721.css",
+    "main.js": "/tasks-list-react/static/js/main.1cb86c14.js",
+    "static/media/leaf.svg": "/tasks-list-react/static/media/leaf.a45bd84a3a8fc5a46f0718769cce4f65.svg",
+    "index.html": "/tasks-list-react/index.html",
+    "static/media/cross.svg": "/tasks-list-react/static/media/cross.53dee2569530f715778125ca69b18a38.svg",
+    "static/media/tick.svg": "/tasks-list-react/static/media/tick.35a56e472a88efb426a809ec54a8f73d.svg",
+    "main.c661f721.css.map": "/tasks-list-react/static/css/main.c661f721.css.map",
+    "main.1cb86c14.js.map": "/tasks-list-react/static/js/main.1cb86c14.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c661f721.css",
+    "static/js/main.1cb86c14.js"
+  ]
+}
