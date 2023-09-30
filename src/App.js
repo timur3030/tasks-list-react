@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Footer from "./components/footer/Footer";
 import Form from "./components/form/Form";
 import Header from "./components/header/Header";
@@ -6,7 +6,15 @@ import List from "./components/list/List";
 import Remove from "./components/remove/Remove";
 
 function App() {
-  const [tasks, setTasks] = useState([]);
+  const [tasks, setTasks] = useState(
+    localStorage.getItem("tasks")
+      ? JSON.parse(localStorage.getItem("tasks"))
+      : []
+  );
+
+  useEffect(() => {
+    localStorage.setItem("tasks", JSON.stringify(tasks));
+  }, [tasks]);
 
   const addTasks = (newTask) => {
     setTasks([...tasks, newTask]);
@@ -39,8 +47,6 @@ function App() {
       })
     );
   };
-
-  console.log(tasks);
 
   return (
     <div className="App">
