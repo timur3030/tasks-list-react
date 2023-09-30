@@ -1,0 +1,7 @@
+.form {
+  text-align: left;
+}
+
+.form button:hover {
+  opacity: 0.8;
+}
