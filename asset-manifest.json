@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/tasks-list-react/static/css/main.c661f721.css",
-    "main.js": "/tasks-list-react/static/js/main.b0a4f0b7.js",
+    "main.css": "/tasks-list-react/static/css/main.fdb0e247.css",
+    "main.js": "/tasks-list-react/static/js/main.93cac571.js",
     "static/media/leaf.svg": "/tasks-list-react/static/media/leaf.a45bd84a3a8fc5a46f0718769cce4f65.svg",
+    "static/media/moon.svg": "/tasks-list-react/static/media/moon.1e1b2cb5af0b09449b6dfc72bd6cbfab.svg",
     "index.html": "/tasks-list-react/index.html",
+    "static/media/sun.svg": "/tasks-list-react/static/media/sun.ea32b0b957ca9833df1241fe943423cc.svg",
     "static/media/cross.svg": "/tasks-list-react/static/media/cross.53dee2569530f715778125ca69b18a38.svg",
     "static/media/tick.svg": "/tasks-list-react/static/media/tick.35a56e472a88efb426a809ec54a8f73d.svg",
-    "main.c661f721.css.map": "/tasks-list-react/static/css/main.c661f721.css.map",
-    "main.b0a4f0b7.js.map": "/tasks-list-react/static/js/main.b0a4f0b7.js.map"
+    "main.fdb0e247.css.map": "/tasks-list-react/static/css/main.fdb0e247.css.map",
+    "main.93cac571.js.map": "/tasks-list-react/static/js/main.93cac571.js.map"
   },
   "entrypoints": [
-    "static/css/main.c661f721.css",
-    "static/js/main.b0a4f0b7.js"
+    "static/css/main.fdb0e247.css",
+    "static/js/main.93cac571.js"
   ]
 }
