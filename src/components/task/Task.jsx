@@ -1,6 +1,7 @@
 import React from "react";
 import imgRemove from "./../../img/cross.svg";
 import imgDone from "./../../img/tick.svg";
+import "./task.css";
 
 function Task({ task, deleteTask, doneTask }) {
   return (

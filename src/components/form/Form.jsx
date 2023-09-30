@@ -23,7 +23,7 @@ function Form({ addTasks }) {
                   required
                   ref={input}
                 />
-                <small id="emailHelp" className="form-text text-muted">
+                <small id="emailHelp" className="form-text text-muted muted">
                   Что делаем, сколько времени тратим, какой результат получаем.
                 </small>
               </div>

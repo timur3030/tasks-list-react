@@ -1,3 +1,15 @@
 .header {
   text-align: left;
 }
+
+.header__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 328px) {
+  .h4 {
+    font-size: 1.4rem;
+  }
+}
